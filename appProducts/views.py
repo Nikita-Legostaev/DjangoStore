@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponse
 from appProducts.models import Product, ProductCategory
 
+
 # Create your views here.
 
 def index(request):
